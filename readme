@@ -1,3 +1,11 @@
+Mejoras:
+
+- Se hizo mejoras en la interfaz al mostrar las peliculas
+- Se agrego reintentos para cuando tengamos fallos en los requests
+- Se optimizo el numero de consultas a la API de OMDb para evitar el limite de peticiones
+- Se usa la caché para reducir el tiempo de espera en requests que ya fueron hechas (Repite filtro u retrocede entre las páginas)
+- Se aprovecha la paginación que ofrece la API de OMDb
+
 Go to https://www.omdbapi.com/apikey.aspx
 To get a new API Key (Free) and replace in the line 6 of app.py file
 Run
